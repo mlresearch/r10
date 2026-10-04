@@ -1,0 +1,95 @@
+---
+booktitle: Proceedings of the 28th Conference on Uncertainty in Artificial Intelligence
+shortname: UAI
+year: '2012'
+start: &1 2012-08-14
+end: 2012-08-18
+conference_number: '28'
+volume: R10
+published: 2026-10-04
+firstpublished: 2012-08-14
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: UAI-2012
+month: 0
+cycles: false
+bibtex_editor: de Freitas, Nando and Murphy, Kevin
+editor:
+- given: Nando
+  family: Freitas
+  prefix: de
+- given: Kevin
+  family: Murphy
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the 28th Conference on Uncertainty in Artificial Intelligence
+    Held in Catalina Island, CA, USA on 14-18 August 2012
+
+  Published as Reissue 10 by the Proceedings of Machine Learning Research on 04 October 2026.
+
+  Volume Edited by:
+    Nando de Freitas
+    Kevin Murphy
+
+  Series Editors:
+    Tegan Emerson
+    Hoel Kervadec
+    Neil D. Lawrence
+date_str: 14--18 Aug
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/r10"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: r10
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Reissue
+volume_dir: r10
+email: ''
+conference:
+  name: Uncertainty in Artificial Intelligence
+  url: https://www.auai.org/uai2012/
+  location: Catalina Island, CA, USA
+  dates:
+  - *1
+  - 2012-08-15
+  - 2012-08-16
+  - 2012-08-17
+  - 2012-08-18
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+link_visibility:
+  openreview: true
+  pdf: true
+  supplementary: true
+  software: true
+  video: true
+  arxiv: true
+  doi: true
+  website: true
+orig_bibfile: uai2012_clean.bib
+# Site settings
+# Original source:  uai2012_clean.bib
