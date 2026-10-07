@@ -2,7 +2,7 @@
 booktitle: Proceedings of the 28th Conference on Uncertainty in Artificial Intelligence
 shortname: UAI
 year: '2012'
-start: &1 2012-08-14
+start: 2012-08-14
 end: 2012-08-18
 conference_number: '28'
 volume: R10
@@ -73,7 +73,7 @@ conference:
   url: https://www.auai.org/uai2012/
   location: Catalina Island, CA, USA
   dates:
-  - *1
+  - 2012-08-14
   - 2012-08-15
   - 2012-08-16
   - 2012-08-17
